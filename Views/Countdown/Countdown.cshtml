@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="~/countdown.css">
+    <meta charset="utf-8">
+    <title>Results</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="title">Countdown </h1>
+
+        @{
+            DateTime end = new DateTime(2023, 8, 25, 16, 00, 00);
+            TimeSpan diff = end - DateTime.Now;
+        }
+
+        <div class="top-row">
+            <div class="time-box">
+                <h2>Start Time</h2>
+                <h2>@DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm:ss")</h2>
+
+            </div>
+            <div class="time-box">
+                <h2>End Time</h2>
+                <h2>@end.ToString("dddd, dd MMMM yyyy HH:mm:ss")</h2>
+
+            </div>
+        </div>
+
+        <div class="time-left">
+            <h2>Time Left</h2>
+            <h2>@diff.Days day(s), 
+                @diff.Hours hour(s), 
+                @diff.Minutes minute(s), 
+                @diff.Seconds second(s)
+                @diff.Milliseconds millisecond(s) remaining!</h2>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

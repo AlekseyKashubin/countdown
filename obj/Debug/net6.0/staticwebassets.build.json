@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "JObOjtRHxW/mlq/EAZ7ZIVKSnS5uSQBKoUhKjjWRsB0=",
+  "Source": "countdown",
+  "BasePath": "_content/countdown",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "countdown\\wwwroot",
+      "Source": "countdown",
+      "ContentRoot": "C:\\Users\\akash\\Desktop\\CodingDojo\\c#\\countdown\\wwwroot\\",
+      "BasePath": "_content/countdown",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\akash\\Desktop\\CodingDojo\\c#\\countdown\\wwwroot\\countdown.css",
+      "SourceId": "countdown",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\akash\\Desktop\\CodingDojo\\c#\\countdown\\wwwroot\\",
+      "BasePath": "_content/countdown",
+      "RelativePath": "countdown.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\countdown.css"
+    }
+  ]
+}
